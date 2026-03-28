@@ -1,9 +1,9 @@
 <?php
 // Konfigurasi Database
 $host = "localhost"; 
-$user = "root";
-$pass = "";
-$db   = "pefsdzhc_berkahmulia";
+$user = "berkah42_buburcianjur";
+$pass = "l&I^2+?5)&-g@Yoc";
+$db   = "berkah42_buburcianjur_db";
 
 // Membuat koneksi ke database
 $conn = mysqli_connect($host, $user, $pass, $db);
