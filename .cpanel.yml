@@ -15,6 +15,7 @@ deployment:
     - /bin/cp save_order.php $DEPLOYPATH
     - /bin/cp service-worker.js $DEPLOYPATH
     - /bin/cp track_order.php $DEPLOYPATH
+    - /bin/cp error_log $DEPLOYPATH
     - /bin/cp -R admin $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R cgi-bin $DEPLOYPATH
@@ -25,4 +26,3 @@ deployment:
     - /bin/cp -R src $DEPLOYPATH
     - /bin/cp -R uploads $DEPLOYPATH
     - /bin/cp -R vendor $DEPLOYPATH
-    - /bin/cp error_log $DEPLOYPATH
