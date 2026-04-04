@@ -4,7 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/berkahmulia42/buburcianjur.com/
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp google_auth.php $DEPLOYPATH
-    - /bin/cp google_auth.php $DEPLOYPATH
     - /bin/cp koneksi.php $DEPLOYPATH
     - /bin/cp login.php $DEPLOYPATH
     - /bin/cp logout.php $DEPLOYPATH
@@ -16,6 +15,7 @@ deployment:
     - /bin/cp service-worker.js $DEPLOYPATH
     - /bin/cp track_order.php $DEPLOYPATH
     - /bin/cp error_log $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp -R admin $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R cgi-bin $DEPLOYPATH
