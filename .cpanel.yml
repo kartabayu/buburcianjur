@@ -1,28 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/berkahmulia42/buburcianjur.com/
-    - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp google_auth.php $DEPLOYPATH
-    - /bin/cp koneksi.php $DEPLOYPATH
-    - /bin/cp login.php $DEPLOYPATH
-    - /bin/cp logout.php $DEPLOYPATH
-    - /bin/cp manifest.json $DEPLOYPATH
-    - /bin/cp pesan.php $DEPLOYPATH
-    - /bin/cp promo.php $DEPLOYPATH
-    - /bin/cp register.php $DEPLOYPATH
-    - /bin/cp save_order.php $DEPLOYPATH
-    - /bin/cp service-worker.js $DEPLOYPATH
-    - /bin/cp track_order.php $DEPLOYPATH
-    - /bin/cp error_log $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
-    - /bin/cp -R admin $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R cgi-bin $DEPLOYPATH
-    - /bin/cp -R dapur $DEPLOYPATH
-    - /bin/cp -R driver $DEPLOYPATH
-    - /bin/cp -R kasir $DEPLOYPATH
-    - /bin/cp -R member $DEPLOYPATH
-    - /bin/cp -R src $DEPLOYPATH
-    - /bin/cp -R uploads $DEPLOYPATH
-    - /bin/cp -R vendor $DEPLOYPATH
+    - export DEPLOYPATH=/home/websites/tutorial.websitesaya.net
+    - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
